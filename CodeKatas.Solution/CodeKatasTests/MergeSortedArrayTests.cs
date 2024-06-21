@@ -45,7 +45,7 @@ namespace CodeKatasTests
 
         private int[] MergeSortedArray(int[] nums1, int m, int[] nums2, int n)
         {
-            var index1 = m -1;
+            var index1 = m - 1;
             var index2 = n - 1;
             var totalIndex = (m + n) - 1;
 
