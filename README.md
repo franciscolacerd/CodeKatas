@@ -3,6 +3,12 @@
 ## Sum Of Two
 Calculate the sum of two numbers, return array with indexes of the numbers. If not found, return empty array.
 
+|Time Complexity:| O(n)|
+|-|-|
+|Space Complexity: |O(n)|
+
+*Where 𝑛 is the number of elements in the numbers array.*
+
 ### Sample data:
 ```
 var target = 11;
