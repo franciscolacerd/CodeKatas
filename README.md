@@ -65,12 +65,23 @@ int n = 3;
 -----
 
 ## Remove Element
-Remove elements in an array of integers that are equal to value given. Return count of integers remaining in the array.
+Remove elements in an array of integers that are equal to value given. Return count of integers remaining in the array. (resulting array doesn´t matter)
 
 ### Sample data:
 ```
 var nums = new int[] { 0, 1, 2, 2, 3, 0, 4, 2 };
 var val = 2;
+```
+
+-----
+
+
+## Remove Duplicates From Sorted Array
+Remove elements in an array of integers that are duplicate. Return count of integers remaining in the array. (resulting array doesn´t matter)
+
+### Sample data:
+```
+var numbers = new int[] { 0, 0, 1, 1, 1, 2, 2, 3, 3, 4 };
 ```
 
 -----
