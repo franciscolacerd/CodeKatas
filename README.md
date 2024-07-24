@@ -46,3 +46,15 @@ int n = 3;
 
 -----
 
+-----
+
+## Remove Element
+Remove elements in an array of integers that are equal to value given. Return count of integers remaining in the array.
+
+### Sample data:
+```
+var nums = new int[] { 0, 1, 2, 2, 3, 0, 4, 2 };
+var val = 2;
+```
+
+-----
