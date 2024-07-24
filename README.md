@@ -20,6 +20,12 @@ var arrayOfNumbers = new int[] { 1, 2, 3, 9, 0, -1 };
 ## Palindrome
 Validate whether a sentence is a palindrome (identical in both ways). Return true or false.
 
+|Time Complexity:| O(n) |
+|-|-|
+|Space Complexity: |O(1)|
+
+*Where 𝑛 is the length of the phrase String.*
+
 ### Sample data:
 ```
 var phrase = "Cigar? Toss it in a can. It is so tragic.";
