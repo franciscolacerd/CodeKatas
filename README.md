@@ -46,8 +46,6 @@ int n = 3;
 
 -----
 
------
-
 ## Remove Element
 Remove elements in an array of integers that are equal to value given. Return count of integers remaining in the array.
 
