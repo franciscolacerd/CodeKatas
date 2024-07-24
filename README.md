@@ -30,6 +30,12 @@ var phrase = "Cigar? Toss it in a can. It is so tragic.";
 ## Anagram
 Validate two words are anagrams. Return true or false.
 
+|Time Complexity:| O(n+m)|
+|-|-|
+|Space Complexity: |O(n+m)|
+
+*Where 𝑛 is the length of the first word String and 𝑚 is the length of the second word String.*
+
 ### Sample data:
 ```
 var firstString = "anagram";
