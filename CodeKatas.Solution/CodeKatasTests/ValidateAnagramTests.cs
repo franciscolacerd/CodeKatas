@@ -43,7 +43,8 @@ namespace CodeKatasTests
 
             var secondWordDict = ToDictionary(secondString);
 
-            return !firstWordDict.Except(secondWordDict).Any();
+            return !firstWordDict.Except(secondWordDict).Any() &&
+                   !secondWordDict.Except(firstWordDict).Any();
         }
 
         private Dictionary<char, int> ToDictionary(string word)
